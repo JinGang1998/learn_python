@@ -13,6 +13,7 @@ def prime(n,result):
 a = int(input())
 result = []
 prime(a,result)
+print(result)
 num = 0
 for i in range(len(result)-1):
     if (result[i+1]-result[i]==2):
